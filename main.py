@@ -3,8 +3,7 @@ import pandas as pd
 import streamlit as st
 
 # Loading dataset
-registry_df = pd.read_csv('https://github.com/DanielJanowicz/Data_Generator/blob/main/datasets/follow_up.csv')
-
+registry_df = pd.read_csv('follow_up.csv')
 # Creating a dashboard header
 st.header('Patient Follow-Up')
 
