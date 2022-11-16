@@ -4,7 +4,7 @@ import streamlit as st
 
 # Loading dataset
 registry_df = pd.read_csv('follow_up.csv')
-vehicle_df = pd.read_csv('vehicle_accident_data.csv')
+vehicle_df = pd.read_csv('vehicle_accident_data1.csv')
 # Creating a dashboard header
 st.header('Patient Follow-Up & Vehicle Accident Data')
 
