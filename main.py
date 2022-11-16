@@ -28,7 +28,7 @@ st.caption('Visual provides insight of the number of patients per hospital')
 st.subheader('Accidents based on the Day of the Week')
 day_week = vehicle_df['Day_of_Week'].value_counts()
 st.bar_chart(day_week)
-st.caption('Visual provides insight of the number of patients per hospital')
+st.caption('Visual provides insight on the popular days of the week for accidents')
 
 # Creating a code block
 code = '''## Code behind the Bar Chart for Day of the Week
